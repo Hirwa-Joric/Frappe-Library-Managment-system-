@@ -250,3 +250,19 @@ app_license = "mit"
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
 
+fixtures = [
+    # Customizations to existing doctypes (custom fields, property setters, etc.)
+    "Custom Field",
+    "Property Setter",
+
+    # Role & permissions customizations done via UI
+    "Role",
+    "Custom DocPerm",
+
+    # UI assets you may build in UI and want in repo
+    "Print Format",
+    "Report",
+    "Workspace",
+    "Dashboard",
+    "Dashboard Card",
+]
